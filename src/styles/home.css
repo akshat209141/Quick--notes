@@ -1,0 +1,12 @@
+#note-page{
+    height: 270px;
+    overflow-y: scroll;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-image: url("https://flevix.com/wp-content/uploads/2021/05/Bubble-Background.svg");
+    background-attachment: fixed;
+    background-size: cover;   
+}

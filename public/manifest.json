@@ -1,25 +1,32 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+  "manifest_version": 3,
+  "name": "Quicky Notes",
+  "version": "1.0.0",
+
+  "description": "Extension for making quick notes and exporting them as pdf",
+  "icons": {
+    "16":"./images/icon.jpg",
+    "48":"./images/icon.jpg",
+    "126":"./images/icon.jpg"
+  },
+
+  "background":{
+    "service_worker":"background.js"
+  },
+
+  "action": {
+    "default_icon": {
+      "16": "./images/icon.jpg",
+      "24": "./images/icon.jpg",
+      "32": "./images/icon.jpg"
     },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+
+    "default_popup":"index.html"
+  },
+
+  "permissions":[
+    "storage",
+    "contextMenus",
+    "notifications"
+  ]
 }
