@@ -91,7 +91,7 @@ const FileIcon = styled(TextSnippetIcon)`
   margin: 23px 33px;
   cursor: pointer;
   color: #fff;
-  transition: 0.5s all;
+
   &:hover{
     color: rgb(234, 0, 255);
   }
@@ -100,7 +100,7 @@ const NewFileIcon = styled(NoteAddIcon)`
   margin: 23px 33px;
   cursor: pointer;
   transform: scale(4);
-  color: #fff;
+  color: rgb(0 238 255);
   
   &:hover{
     color: rgb(234, 0, 255);

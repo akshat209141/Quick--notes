@@ -18,7 +18,7 @@ chrome.contextMenus.onClicked.addListener((clickedData) => {
                 const date = new Date();
                 let notiOptions = {
                     type:'basic',
-                    iconUrl: "./images/icon.jpg",
+                    iconUrl: "./images/icon.png",
                     title:"No file chosen!",
                     message:"You haven't chosen any file to save current point!"
                 }

@@ -5,9 +5,9 @@
 
   "description": "Extension for making quick notes and exporting them as pdf",
   "icons": {
-    "16":"./images/icon.jpg",
-    "48":"./images/icon.jpg",
-    "126":"./images/icon.jpg"
+    "16":"./images/icon.png",
+    "48":"./images/icon.png",
+    "126":"./images/icon.png"
   },
 
   "background":{
@@ -16,9 +16,9 @@
 
   "action": {
     "default_icon": {
-      "16": "./images/icon.jpg",
-      "24": "./images/icon.jpg",
-      "32": "./images/icon.jpg"
+      "16": "./images/icon.png",
+      "24": "./images/icon.png",
+      "32": "./images/icon.png"
     },
 
     "default_popup":"index.html"
