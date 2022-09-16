@@ -6,6 +6,15 @@ https://user-images.githubusercontent.com/87617110/190652101-ba4feb85-b525-4c9f-
 
 ## Usage
 
+  #### To make a new file
+  
+  1. Open the extension
+  2. Click on `New File` button.
+  3. Enter the name in the alert box and click `OK`
+  
+  ![save](https://user-images.githubusercontent.com/87617110/190664045-acaad898-0232-417e-be4b-41bcf9a29742.png)
+
+
   #### To add any point 
 
   1. Open the extension
@@ -22,6 +31,13 @@ https://user-images.githubusercontent.com/87617110/190652101-ba4feb85-b525-4c9f-
   2. Click on `Save PDF` button. \
 
    ![save](https://user-images.githubusercontent.com/87617110/190650844-e1437de6-9c46-416d-9662-81177fc2d988.png)
+
+  #### To delete a file   
+  
+  1. Open the extension and choose a file
+  2. Click on `Delete` button. \
+  
+   ![save](https://user-images.githubusercontent.com/87617110/190662615-befec56a-b883-4d27-955e-558ac56e3f4b.png)
 
     
   #### To delete any point   
