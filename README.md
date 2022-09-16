@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/87617110/190652101-ba4feb85-b525-4c9f-
   1. Open the extension and choose a file
   2. Click on `Save PDF` button. \
 
-    ![save](https://user-images.githubusercontent.com/87617110/190650844-e1437de6-9c46-416d-9662-81177fc2d988.png)
+   ![save](https://user-images.githubusercontent.com/87617110/190650844-e1437de6-9c46-416d-9662-81177fc2d988.png)
 
     
   #### To delete any point   
@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/87617110/190652101-ba4feb85-b525-4c9f-
   1. Open the extension and choose a file
   2. Click on `Garbage` icon \
 
-    ![Delete](https://user-images.githubusercontent.com/87617110/190650359-635ce02c-e820-4ff6-a195-82777f0e8639.png)
+   ![Delete](https://user-images.githubusercontent.com/87617110/190650359-635ce02c-e820-4ff6-a195-82777f0e8639.png)
 
 
 ## Installation from source
