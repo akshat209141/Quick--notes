@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Quick Notes making extension in chrome 
+This chrome extension allows a user to generate notes instantly and download its PDF locally
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://user-images.githubusercontent.com/87617110/190652101-ba4feb85-b525-4c9f-80f0-ff240036a701.mp4
 
-## Available Scripts
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+  #### To add any point 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  1. Open the extension
+  2. Create a new file. If exist, click and open it.
+  3. Close the extension and chose a portion of a text on any webpage
+  4. Right click top open menu and click `Add a point` item \
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ![save](https://user-images.githubusercontent.com/87617110/190651810-d72202bc-0d6b-4912-b145-1b709664961a.png)
 
-### `npm test`
+    
+  #### To generate PDF of a file   
+  
+  1. Open the extension and choose a file
+  2. Click on `Save PDF` button. \
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ![save](https://user-images.githubusercontent.com/87617110/190650844-e1437de6-9c46-416d-9662-81177fc2d988.png)
 
-### `npm run build`
+    
+  #### To delete any point   
+  
+  1. Open the extension and choose a file
+  2. Click on `Garbage` icon \
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ![Delete](https://user-images.githubusercontent.com/87617110/190650359-635ce02c-e820-4ff6-a195-82777f0e8639.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation from source
 
-### `npm run eject`
+  1. Visit chrome://extensions/
+  2. Ensure Developer mode is checked
+  3. Click Load unpacked extension...
+  4. Locate and select the directory `build`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
