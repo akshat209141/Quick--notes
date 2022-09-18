@@ -1,5 +1,4 @@
 /*global chrome*/
-
 import React, {useState} from 'react'
 import '../styles/points.css'
 import styled from 'styled-components'
@@ -7,6 +6,7 @@ import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
 function Points({currentFile}) {
 
+    // state containing array of all points of a document
     const [pointsData, setpointsData] = useState([])
 
     chrome.storage.sync.get("allFilesData", (obj) => {
@@ -18,8 +18,8 @@ function Points({currentFile}) {
         }
     })
 
+    // function to delete a point
     const deletePoint = (index) => {
-
         chrome.storage.sync.get("allFilesData", (filesData) => {
             const oldFileData = filesData.allFilesData.filter((file) => {
                 return file.name === currentFile

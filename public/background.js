@@ -6,12 +6,13 @@ var menuItem = {
     "contexts":["selection"]
 }
 
+// creating our item in context menu
 chrome.contextMenus.create(menuItem);
 
-
+// onClick handles if our menuItem is clicked
 chrome.contextMenus.onClicked.addListener((clickedData) => {
-    if(clickedData.menuItemId === menuItem.id && clickedData.selectionText){
 
+    if(clickedData.menuItemId === menuItem.id && clickedData.selectionText){
         chrome.storage.sync.get("currentFile", (obj) => {
             let fileName = obj.currentFile;
             if(!fileName){

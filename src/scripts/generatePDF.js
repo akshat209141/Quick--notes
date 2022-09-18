@@ -1,6 +1,5 @@
 /*global chrome*/
 
-import { currFile } from "./popup";
 import htmlToPdfmake from "html-to-pdfmake";
 import pdfMake  from "pdfmake/build/pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
@@ -9,19 +8,18 @@ pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
 export const generatePDF = (pointsData, currentFile) =>{
 
-
   const div = document.createElement('div')
   const body = document.createElement('body');
   const title = document.createElement('h2');
   const ol = document.createElement('ol')
   const style = document.createElement('style')
   
-
   for(let i=0; i< pointsData.length; i++){
     const li = document.createElement('li');
     li.innerHTML = pointsData[i];
     ol.appendChild(li)
   }  
+
 
   title.innerText = currentFile
   body.appendChild(title)
@@ -33,7 +31,7 @@ export const generatePDF = (pointsData, currentFile) =>{
     ${div.innerHTML}
   `)
 
-
+  //pdf doc options 
   let docDefinition = {
     content: [val],
     styles:{
@@ -48,6 +46,7 @@ export const generatePDF = (pointsData, currentFile) =>{
     }
   }
   
+  // create pdf
   pdfMake.createPdf(docDefinition).download(currentFile)
 }
 

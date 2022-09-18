@@ -7,6 +7,7 @@ import NoteAddIcon from '@mui/icons-material/NoteAdd';
 
 function Welcome({setcurrentFile}) {
 
+  // state to manage an array of all file names
   const [files, setFiles] = useState([])
 
   chrome.storage.sync.get("fileNames", (obj) => {
@@ -14,12 +15,14 @@ function Welcome({setcurrentFile}) {
       setFiles(obj.fileNames)
   })
 
+  // function to set the file in use/active-state
   const currFileSet = (fileName) => {
       chrome.storage.sync.set({"currentFile": fileName}, () => {
         setcurrentFile(fileName)
       })
   }
 
+  // function to create a new file and add to list of file
   const addNewFile = () => {
     chrome.storage.sync.get("fileNames", (obj) => {
         let a = prompt("Enter name of your file")
