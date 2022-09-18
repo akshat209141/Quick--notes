@@ -55,3 +55,8 @@ https://user-images.githubusercontent.com/87617110/190652101-ba4feb85-b525-4c9f-
   3. Click Load unpacked extension...
   4. Locate and select the directory `build`
 
+## Development
+  1. Clone repo `git clone https://github.com/dhimanAbhi/quicky-notes.git`
+  2. `npm install`
+  3. `npm build` to build the app
+  4.  To run on chrome, from here follow ***Installation from source*** steps
